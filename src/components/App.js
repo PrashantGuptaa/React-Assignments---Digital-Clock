@@ -42,7 +42,7 @@ class App extends Component {
       render(){
         return(
       <div className='clock'>
-      <div id='time'> {this.state.time}</div>
+      <h3 id='time'> {this.state.time}</h3>
       
       </div>
         )
