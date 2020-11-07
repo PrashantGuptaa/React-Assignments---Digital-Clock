@@ -26,7 +26,6 @@ class App extends Component {
       }
       
       componentDidMount(){
-      console.log("Clock componentDidMount");
       this.intervalID = setInterval(() =>{
         this.updateTime();
       },1000)
@@ -35,7 +34,6 @@ class App extends Component {
       
       
       componentWillUnmount(){
-        console.log("Clock componentWillUnmount");
       clearInterval(this.intervalID);
       }
       
@@ -48,6 +46,7 @@ class App extends Component {
         )
       };
 }
+
 
 
 export default App;
